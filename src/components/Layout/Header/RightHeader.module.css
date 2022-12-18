@@ -1,0 +1,29 @@
+.header-list {
+  display: flex;
+  gap: 14px;
+  height: 40px;
+}
+
+.list-dark {
+  background: url(../../../img/icon-darkmode-switch.svg) no-repeat center;
+  background-size: contain;
+  width: 40px;
+}
+
+.list-alram {
+  background: url(../../../img/icon-alram.svg) no-repeat center;
+  background-size: contain;
+  width: 40px;
+}
+
+.list-setting {
+  background: url(../../../img/icon-setting.svg) no-repeat center;
+  background-size: contain;
+  width: 40px;
+}
+
+.list-profile {
+  background: url(../../../img/icon-profile.svg) no-repeat center;
+  background-size: contain;
+  width: 40px;
+}
