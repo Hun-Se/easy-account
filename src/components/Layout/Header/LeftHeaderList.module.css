@@ -1,38 +1,23 @@
 .container-header-left {
   display: flex;
-  width: 320px;
   height: 40px;
 }
 
-.header-hambuger {
+.header-search::before {
+  content: "";
+  display: block;
   background: url("../../../img/icon-header-hambuger.svg") no-repeat;
   width: 40px;
-  height: 40px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .header-search {
   display: flex;
-  position: relative;
   width: 260px;
-}
-
-.icon-search {
-  position: absolute;
-  top: 9px;
-  left: 9px;
-  width: 20px;
-  height: 20px;
-  background: url("../../../img/icon-research.svg") no-repeat;
-  background-position: center;
-  background-size: contain;
-  text-align: center;
 }
 
 .header-input {
   background-color: var(--input-background-color);
-  width: 260px;
-  align-items: center;
   padding-left: 34px;
   border: none;
   border-radius: 6px;
@@ -40,5 +25,4 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
 }
