@@ -1,0 +1,9 @@
+.contianer-function {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-function {
+  display: flex;
+  gap: 10px;
+}
