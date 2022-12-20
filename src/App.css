@@ -1,5 +1,14 @@
 .App {
-  background-color: var(--background-color);
-  height: 100vh;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
   overflow: auto;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+main {
+  width: 100%;
 }
