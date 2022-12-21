@@ -9,7 +9,7 @@ const FunctionList = () => {
         <ul className={classes["list-function"]}>
           <FunctionItems></FunctionItems>
         </ul>
-        <button className={classes["btn-delete"]}>Delete</button>
+        <button className={classes["btn-delete"]}>삭제</button>
       </div>
     </>
   );
