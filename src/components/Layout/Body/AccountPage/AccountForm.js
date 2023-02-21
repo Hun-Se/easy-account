@@ -19,7 +19,7 @@ const AccountForm = (props) => {
           id: "amount_" + props.id,
           type: "date",
           value: Date(),
-          placeholder: "품목...",
+          placeholder: Date(),
         }}
       />
       <Input
